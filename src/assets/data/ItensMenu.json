@@ -1,0 +1,42 @@
+[
+    {
+        "img": "/icons/mansion.png",
+        "texto":"Inicio",
+        "alt":"Icone-Casa"
+    },
+    {
+        "img": "/icons/config.png",
+        "texto":"Config",
+        "alt":"Icone-Config"
+    },
+    {
+        "img": "/icons/calories.png",
+        "texto":"Calorias",
+        "alt":"Icone-Calorias"
+    },
+    {
+        "img": "/icons/bottle.png",
+        "texto":"Água",
+        "alt":"Icone-Água"
+    },
+    {
+        "img": "/icons/sleeping.png",
+        "texto":"Sono",
+        "alt":"Icone-Sono"
+    },
+    {
+        "img": "/icons/weightlifter.png",
+        "texto":"Treino",
+        "alt":"Icone-Treino"
+    },
+    {
+        "img": "/icons/twitter.png",
+        "texto":"Twitter / X",
+        "alt":"Icone-Twitter"
+    },
+    {
+        "img": "/icons/linkedin.png",
+        "texto":"Linkedin",
+        "alt":"Icone-Linkedin"
+    }
+]
