@@ -2,41 +2,57 @@
     {
         "img": "/icons/mansion.png",
         "texto":"Inicio",
-        "alt":"Icone-Casa"
+        "alt":"Icone-Casa",
+        "url":"/",
+        "target":"_parent"
     },
     {
         "img": "/icons/config.png",
         "texto":"Config",
-        "alt":"Icone-Config"
+        "alt":"Icone-Config",
+        "url":"/Config",
+        "target":"_parent"
     },
     {
         "img": "/icons/calories.png",
         "texto":"Calorias",
-        "alt":"Icone-Calorias"
+        "alt":"Icone-Calorias",
+        "url":"/Calorias",
+        "target":"_parent"
     },
     {
         "img": "/icons/bottle.png",
         "texto":"Água",
-        "alt":"Icone-Água"
+        "alt":"Icone-Água",
+        "url":"/Agua",
+        "target":"_parent"
     },
     {
         "img": "/icons/sleeping.png",
         "texto":"Sono",
-        "alt":"Icone-Sono"
+        "alt":"Icone-Sono",
+        "url":"/Sono",
+        "target":"_parent"
     },
     {
         "img": "/icons/weightlifter.png",
         "texto":"Treino",
-        "alt":"Icone-Treino"
+        "alt":"Icone-Treino",
+        "url":"/Treino",
+        "target":"_parent"
     },
     {
         "img": "/icons/twitter.png",
         "texto":"Twitter / X",
-        "alt":"Icone-Twitter"
+        "alt":"Icone-Twitter",
+        "url":"https://x.com",
+        "target":"_blank"
     },
     {
         "img": "/icons/linkedin.png",
         "texto":"Linkedin",
-        "alt":"Icone-Linkedin"
+        "alt":"Icone-Linkedin",
+        "url":"https://linkedin.com",
+        "target":"_blank"
     }
 ]
