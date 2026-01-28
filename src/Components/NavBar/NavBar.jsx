@@ -10,7 +10,7 @@ function NavBar() {
         <nav className={`relative z-10 ${Aberto ? 'w-52' : 'w-20'} bg-blue-950 text-white p-2 min-h-dvh h-auto shadow-2xl shadow-cyan-400 transition-all`}>
             <div className='flex items-center justify-between mb-5'>
                 <h2 className='text-2xl font-bold'>{Aberto ? 'Fitness :Dashboard' : 'FD'}</h2>
-                <img className='w-10 cursor-pointer invert' src="../../../public/icons/menu.png" alt="icone" onClick={MudarMenu} />
+                <img className='w-10 cursor-pointer invert' src="/icons/menu.png" alt="icone" onClick={MudarMenu} />
             </div>
             <ul className='flex flex-col items-center gap-3'>
                 {Itens.map(item =>
