@@ -6,6 +6,7 @@ import Calorias from "./pages/Calorias"
 import Agua from "./pages/Agua"
 import Sono from "./pages/Sono"
 import Treino from "./pages/Treino"
+import Config from "./pages/Config"
 function App() {
 
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/Agua" element={<Agua/>} />
         <Route path="/Sono" element={<Sono />}/>
         <Route path="/Treino" element={<Treino/>}/>
+        <Route path="/Config" element={<Config />} />
       </Routes>
       </div>
 

@@ -1,6 +1,6 @@
 function SVG(props){
     return(
-        <div className="flex flex-col items-center border-b border-cyan-400 border-dashed border-r w-80">
+        <div className="flex flex-col items-center border-b border-cyan-400 border-dashed border-r w-60 sm:w-80">
             <img src={props.url} alt="icone" className="w-10"/>
             <p className="text-violet-500">{props.texto}</p>
             <svg className="w-44 aspect-square rotate-90">
