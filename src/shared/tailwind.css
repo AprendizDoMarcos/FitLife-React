@@ -8,4 +8,11 @@
     --spacing-25p:25%;
     --spacing-200px:200px;
     --spacing-80p:80%;
+    --animate-progresss:progress linear 1s
+}
+
+@keyframes progress {
+    from{
+        stroke-dashoffset: -440;
+    }
 }

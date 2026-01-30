@@ -17,7 +17,7 @@ function Agua(){
     return (
          <main className="flex flex-col p-5 bg-blue-950 grow gap-5">
             <Titulo texto="Resumo de Hidratação" />
-            <section className="flex justify-center gap-5">
+            <section className="flex flex-col sm:flex-row justify-center gap-5">
                 <Card img="/icons/garrafaagua.png" texto="2L" titulo="Água Consumida"/>
                 <Card img="/icons/copoagua.png" texto="8 Copos" titulo="Copos Consumidos"/>
                 <Card img="/icons/metaagua.png" texto="3L" titulo="Meta de Hidratação"/>

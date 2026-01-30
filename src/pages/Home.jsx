@@ -24,7 +24,7 @@ function Home() {
             <section className='flex flex-col sm:flex-row gap-5 sm:gap-0'>
                 <section className='flex flex-col gap-10'>
                     <h2 className='text-white text-2xl'>Progresso Semanal</h2>
-                    <div className='flex gap-1 sm:gap-2 items-end sm:border-r border-cyan-500 border-dashed w-max sm:pr-8'>
+                    <div className='flex gap-1 sm:gap-2 items-end justify-center sm:border-r border-cyan-500 border-dashed w-full sm:w-max sm:pr-8'>
                         <GraficoBarra numero="120" dia="Seg" tamanho="h-24"/>
                         <GraficoBarra numero="150" dia="Ter" tamanho="h-29"/>
                         <GraficoBarra numero="180" dia="Qua" tamanho="h-35"/>

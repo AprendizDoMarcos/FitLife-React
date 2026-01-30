@@ -15,8 +15,8 @@ function Calorias(){
     },[])
     return (
         <main className="flex flex-col p-5 bg-blue-950 grow gap-5">
-            <Titulo texto="Resumo de Calorias" />
-            <section className="flex justify-center gap-5">
+            <Titulo texto="Resumo de Calorias" /> 
+            <section className="flex flex-col sm:flex-row justify-center gap-5">
                 <Card img="/icons/calories.png" texto="2000 kcal" titulo="Calorias Consumidas"/>
                 <Card img="/icons/metas.png" texto="2500 kcal" titulo="Meta de Calorias"/>
                 <Card img="/icons/susgestao.png" texto="Reduza 500kcal para atingir sua meta de perder peso." titulo="Sugestão"/>

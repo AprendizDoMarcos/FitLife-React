@@ -14,7 +14,7 @@ function Config(){
     })
     return (
         <main className="flex flex-col p-5 bg-blue-950 grow gap-5">
-            <div>
+            <div className="flex flex-col">
                 <Titulo texto="Bem-vindo, [Nome de Úsuario]!"/>
                 <p className="bg-cyan-400 text-blue-950 text-center p-0.5">Data de Hoje: 23/10/2024</p>
             </div>
@@ -28,7 +28,7 @@ function Config(){
             </section>
             <section className="flex flex-col gap-5">
                 <h3 className="font-bold text-2xl text-blue-600">Sincronização de Dispositivos</h3>
-                <div className="flex items-center justify-around">
+                <div className="flex flex-col sm:flex-row items-center justify-around">
                     <Relogio nome="Apple Watch" img="/icons/applewatch.png"/>
                     <Relogio nome="Zeep Xiaomi" img="/icons/xiaomiwatch.png"/>
                     <Relogio nome="Galaxy Watch" img="/icons/sansungwatch.png"/>

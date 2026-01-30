@@ -15,7 +15,7 @@ function Sono(){
     return(
          <main className="flex flex-col p-5 bg-blue-950 grow gap-5">
             <Titulo texto="Resumo de Sono" />
-            <section className="flex justify-center gap-5">
+            <section className="flex flex-col sm:flex-row justify-center gap-5">
                 <Card img="/icons/relogio.png" texto="8 Horas" titulo="Horas de Sono"/>
                 <Card img="/icons/sonosuficiente.png" texto="Boa" titulo="Qualidade de Sono"/>
                 <Card img="/icons/relogiosono.png" texto="07:00" titulo="Despertar"/>
